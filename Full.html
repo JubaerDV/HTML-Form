@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete HTML Form</title>
+</head>
+<body>
+    <h2>Registion from</h2>
+    <form>
+        <input type="url" name="URL" id="URL"><br><br>
+        <input type="hidden" name="hide">
+        <!-- text -->
+        <label for="name">Student Name :</label>
+        <input type="text" name="name" id="name" placeholder="Enter your name">
+        <br><br>
+        <!-- email -->
+        <label for="email">Email adress :</label>
+        <input type="email" name="email" id="Email" placeholder="Enteryour Email">
+        <br><br>
+        <!-- password -->
+        <label for="Password">Password :</label>
+        <input type="password" name="password" id="password" placeholder="Password">
+        <br><br>
+        <!-- number -->
+        <label for="Age">Age :</label>
+        <input type="number" name="Age" id="Age">
+    <br><br>
+    <!-- radio -->
+    <p>Gender</p>
+    <label for="Gender">Gender</label>
+    <input type="radio" name="male" id="male">
+    male
+    <input type="radio" name="female" id="female">
+    female
+    <br><br>
+    <!-- chekboox -->
+     <p>select Your skill</p>
+     <label for="Skill">
+        <input type="checkbox" name="Skill" id="HTML">
+        HTML
+     </label>
+     <label for="Skill">
+        <input type="checkbox" name="Skill" id="CSS">
+           CSS
+    </label>
+    <label for="Skill">
+        <input type="checkbox" name="skill" id="JavaScript">
+        JavaScript
+
+        <br><br>
+        <!-- file input -->
+         <label for="Photo">Upload Photo</label>
+         <br><br>
+       <input type="file" name="photo" id="photo">
+         <br><br>
+     <!-- select option -->
+      <label for="Country">Country</label>
+      <br><br>
+      <select name="Country" id="Country">
+        <option value="BN">Bangladesh</option>
+        <option value="Pak">Pakisthan</option>
+        <option value="RUS">Russia</option>
+        <option value="CN">Chines</option>
+        <option value="IRN">Iran</option>
+        <option value="NC">North Koria</option>
+        <option value="SRL">SriLanka</option>
+        <option value="AFG">Afgansthan</option>
+        <option value="GER">Germany</option>
+        <option value="IRK">Iraq</option>
+         </select>
+    <br><br>
+   
+    <!-- textarea -->
+     <label for="Massage">Meggage</label>
+     <br>
+     <textarea name="Massage" id="Massage" rows="10" cols="30" placeholder="write youre massage"></textarea>
+      
+    <br><br>
+    <button type="button">Reset</button>
+    <br><br>
+    <!-- submit button -->
+     <button type="submit">Submit</button>
+  
+
+    </form>
+    
+</body>
+</html>
